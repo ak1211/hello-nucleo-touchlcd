@@ -5,18 +5,18 @@ The device uses a hardware SPI interface to communicate.
 
 # Required hardwares
 - stm32nucleo development board 'NUCLEO-F302R8'
-- 0.95 inches SSD1331 based Color OLED display module [links to akizukidenshi.com](http://akizukidenshi.com/) 'P-14435'
+- 0.95 inches SSD1331 based Color OLED display module [akizukidenshi.com](http://akizukidenshi.com/) 'P-14435'
 - breadboard and wires
 
 # Wiring
 'NUCLEO-F302R8' arduino connector pins --> 'OLED display' pins
 
-GND (CN6)       --> GND
-3V3 (CN6)       --> VCC
-D13 (CN5) SCK   --> SCL
-D11 (CN5) MOSI  --> SDA
-D9  (CN5)       --> RES
-D8  (CN5)       --> DC
+GND (CN6)       --> GND  
+3V3 (CN6)       --> VCC  
+D13 (CN5) SCK   --> SCL  
+D11 (CN5) MOSI  --> SDA  
+D9  (CN5)       --> RES  
+D8  (CN5)       --> DC  
 D10 (CN5) CS    --> CS
 
 # Build
