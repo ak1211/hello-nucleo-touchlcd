@@ -1,4 +1,3 @@
-
 # `hello-nucleo-oled`
 SSD1331 OLED display shown "Hello world".  
 The device uses a hardware SPI interface to communicate.
@@ -18,6 +17,9 @@ The device uses a hardware SPI interface to communicate.
 | D9  (CN5)      | RES |
 | D8  (CN5)      | DC  |
 | D10 (CN5) CS   | CS  |
+
+![wiring](https://user-images.githubusercontent.com/17291748/75254673-0a1d9800-5824-11ea-9ffa-54bac9284c0e.JPG)
+![Hello, World](https://user-images.githubusercontent.com/17291748/75254833-51a42400-5824-11ea-841f-d2a2aba35b1a.JPG)
 
 # Build
 cargo build --release
