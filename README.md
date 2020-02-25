@@ -1,6 +1,6 @@
 
 # `hello-nucleo-oled`
-SSD1331 OLED display shown "Hello world".
+SSD1331 OLED display shown "Hello world".  
 The device uses a hardware SPI interface to communicate.
 
 # Required hardwares
