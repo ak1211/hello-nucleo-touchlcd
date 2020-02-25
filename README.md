@@ -9,15 +9,15 @@ The device uses a hardware SPI interface to communicate.
 - breadboard and wires
 
 # Wiring
-'NUCLEO-F302R8' arduino connector pins --> 'OLED display' pins
-
-GND (CN6)       --> GND  
-3V3 (CN6)       --> VCC  
-D13 (CN5) SCK   --> SCL  
-D11 (CN5) MOSI  --> SDA  
-D9  (CN5)       --> RES  
-D8  (CN5)       --> DC  
-D10 (CN5) CS    --> CS
+| 'NUCLEO-F302R8' arduino connector pins | 'OLED display' pins |
+----|----
+| GND (CN6)      | GND |
+| 3V3 (CN6)      | VCC |
+| D13 (CN5) SCK  | SCL |
+| D11 (CN5) MOSI | SDA |
+| D9  (CN5)      | RES |
+| D8  (CN5)      | DC  |
+| D10 (CN5) CS   | CS  |
 
 # Build
 cargo build --release
