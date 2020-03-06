@@ -2,7 +2,7 @@
 authors = ["Akihiro Yamamoto <ak1211@mail.ak1211.com>"]
 categories = ["embedded", "no-std"]
 description = "hello, world"
-documentation = "https://github.com/ak1211/hello-nucleo-oled/README.md"
+documentation = "https://github.com/ak1211/hello-nucleo-touchlcd/README.md"
 keywords = ["arm", "cortex-m", "ili9341"]
 license = "Apache-2.0"
 name = "hello-nucleo-touchlcd"
