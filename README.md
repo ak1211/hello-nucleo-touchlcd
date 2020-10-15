@@ -24,7 +24,8 @@ The device uses a hardware SPI interface to communicate.
 ![Hello, World](https://user-images.githubusercontent.com/17291748/75626469-2b5afb80-5c0b-11ea-8b0f-1cfe713f0244.JPG)
 
 # Build
-cargo build --release
+$ cargo build --release
+$ cargo objcopy --release -- -O binary firmware.bin
 
 # License
 Licensed under
