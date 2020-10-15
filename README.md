@@ -25,6 +25,7 @@ The device uses a hardware SPI interface to communicate.
 
 # Build
 $ cargo build --release
+
 $ cargo objcopy --release -- -O binary firmware.bin
 
 # License
